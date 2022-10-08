@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.rollss {
+  animation: rolling 0.1s linear infinite;
+}
+
+@keyframes rolling {
+  0% {
+      transform: rotate(-20deg);
+  }
+
+  20% {
+      transform: rotateX(150deg);
+  }
+
+  40% {
+      transform: rotate(20deg);
+  }
+
+  60% {
+      transform: rotateY(100deg);
+  }
+
+  80% {
+      transform: rotate(50deg);
+  }
+
+  100% {
+      transform: rotateX(150deg)
+  }
+}
